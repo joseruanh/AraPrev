@@ -5,7 +5,7 @@ function parcelamentos()
     a.innerHTML = `
     
     <p class="tit">
-        Controle de Parcelamentos 
+        Controle de Pagamentos de Repasses
     </p>
 
     <table>
