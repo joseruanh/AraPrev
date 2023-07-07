@@ -11,6 +11,7 @@ header
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 body
@@ -72,6 +73,7 @@ p.tit
     font-size: 20px;
 
     padding-bottom: 50px;
+    color: rgb(33, 33, 97);
 }
 
 table
@@ -104,4 +106,33 @@ td.loss
 {
     font-weight: bolder;
     color: rgb(158, 0, 0);
+}
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(33, 33, 97);
+    margin-top: 200px;
+}
+
+img.rodape
+{
+    max-width: 150px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+img.rodape:hover
+{
+    transform: scale(1.1);
+}
+
+div.site
+{
+    overflow: hidden;
+    text-align: center;
 }
