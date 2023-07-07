@@ -44,6 +44,7 @@ button.menu
 {
     cursor: pointer;
     background-color: rgb(59, 59, 174);
+    border-radius: 10px;
     color: white;
     padding: 10px;
     border: none;
