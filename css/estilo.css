@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+*
+{
+    margin: 0; padding: 0; font-family: 'Barlow', sans-serif;
+}
+
+header
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body
+{
+    position: relative;
+}
+
+img.logo
+{
+    max-width: 250px;
+}
+
+main
+{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+div.botoes
+{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.menu
+{
+    cursor: pointer;
+    background-color: rgb(59, 59, 174);
+    color: white;
+    padding: 10px;
+    border: none;
+    transition: 0.3s;
+    margin-right: 5px;
+
+}
+
+button.menu:hover
+{
+    background-color: rgb(102, 102, 166);
+    border-radius: 10px 0px 10px 0px;
+    transform: scale(1.05);
+}
+
+div.content
+{
+    padding-top: 50px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+p.tit
+{
+    font-weight: bolder;
+    font-size: 20px;
+
+    padding-bottom: 50px;
+}
+
+table
+{
+    max-width: 100%;
+}
+
+td
+{
+    width: 10%;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+td.head
+{
+    font-weight: bolder;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+}
+
+td.win
+{
+    font-weight: bolder;
+    color: rgb(0, 70, 0);
+}
+
+td.loss
+{
+    font-weight: bolder;
+    color: rgb(158, 0, 0);
+}
