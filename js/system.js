@@ -1,3 +1,8 @@
+function topo()
+{
+    window.scrollTo(0, 0);
+}
+
 function parcelamentos()
 {
     let a = window.document.getElementById("res")
