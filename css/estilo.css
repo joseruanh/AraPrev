@@ -60,7 +60,7 @@ button.menu:hover
     transform: scale(1.05);
 }
 
-div.content
+div.resposta
 {
     padding-top: 50px;
     text-align: center;
@@ -80,11 +80,13 @@ p.tit
 table
 {
     max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 td
 {
-    width: 10%;
     text-align: center;
     padding-top: 10px;
     font-size: 12px;
@@ -136,4 +138,5 @@ div.site
 {
     overflow: hidden;
     text-align: center;
+    border-radius: 5%;
 }
