@@ -63,7 +63,7 @@ button.login, button.acessar
 
 button:hover
 {
-    background-color: rgb(131, 131, 131);
+    background-color: rgb(255, 255, 120);
 }
 
 input::placeholder
@@ -81,4 +81,9 @@ p.araprevP
 p.segundo
 {
     font-size: 12px;
+}
+
+img.erro
+{
+    width: 15px;
 }
