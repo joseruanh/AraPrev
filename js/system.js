@@ -124,3 +124,9 @@ function guias()
                     `
 }
 
+function limpar()
+{
+    let a = window.document.getElementById("resposta")
+    a.innerHTML = ` ㅤ ` 
+}
+
