@@ -109,6 +109,18 @@ function guias()
 {
     let a = window.document.getElementById("res")
 
-    a.innerHTML = ` Em breve mostrará as guias em aberto`
+    a.innerHTML = ` <p class="tit"> 
+                        Controle de Pagamentos de Guias
+                    </p>
+
+                    <div>
+                        <p> 
+                            Em Breve 
+                        </p>
+                    </div>
+                    
+                    
+                    
+                    `
 }
 
