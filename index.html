@@ -3,27 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AraPrev</title>
+    <title>AraPrev Controle Interno</title>
     <link rel="stylesheet" href="css/estilo.css">
     <script src="js/system.js"></script>
     <link rel="shortcut icon" href="images/ico.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/form.css">
 </head>
 <body>
-    <button class="topo" onclick="topo()">⇑</button>
-
     <header>
-        <img src="images/logo.jpg" class="logo" alt="araprev" onclick="reload()">
+        <img src="images/logo.jpg" class="logo" alt="araprev">
     </header>
 
-    <main>
-        <div class="botoes">
-            <button class="menu" onclick="parcelamentos()">parcelamentos</button>
-            <button class="menu" onclick="guias()"> controle de guias </button>
-        </div>
-
-        <div class="resposta" id="res">
-
-            <p> Nenhum conteúdo selecionado.</p>
+    <main id="principal">
+        <div class="form">
+            <br><br><br>
+            <p>utilize a senha para entrar</p>
+            <br>
+            <input type="password" name="senha" id="senha" class="entrada">
+            <br><br> <br> <p id="resposta">ㅤ</p> <br><br><br><br>
+            <button class="login" onclick="entrar()"> acessar </button>
 
         </div>
         
@@ -33,20 +31,20 @@
     <footer>
 
         
-            <div class="site">
-                <a href="https://www.aracoiabaprev.pe.gov.br/" target="_blank">
-                    <img src="images/ico.jpg" alt="Araçoiaba Prev" class="rodape">
-                </a>
-            </div>
-            <p class="siteOficial">site oficial</p>
-        
-        <br><br><br><br><br><br>
-
-        <div class="links">
-            <a href="https://www.instagram.com/aracoiabaprev/" target="_blank"> <img src="images/insta_logo.webp" alt="instagram" class="instalogo"> </a>
-            <a href="https://www.instagram.com/aracoiabaprev/" target="_blank"> <p class="link">aracoiabaprev</p> </a>
+        <div class="site">
+            <a href="https://www.aracoiabaprev.pe.gov.br/" target="_blank">
+                <img src="images/ico.jpg" alt="Araçoiaba Prev" class="rodape">
+            </a>
         </div>
-    </footer>
+        <p class="siteOficial">site oficial</p>
     
+    <br><br><br><br><br><br>
+
+    <div class="links">
+        <a href="https://www.instagram.com/aracoiabaprev/" target="_blank"> <img src="images/insta_logo.webp" alt="instagram" class="instalogo"> </a>
+        <a href="https://www.instagram.com/aracoiabaprev/" target="_blank"> <p class="link">aracoiabaprev</p> </a>
+    </div>
+</footer>
+
 </body>
 </html>

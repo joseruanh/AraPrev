@@ -76,7 +76,38 @@ function reload()
     location.reload()
 }
 
+
+
+function entrar()
+{
+    let senha = window.document.getElementById("senha")
+    let a = window.document.getElementById("resposta")
+    let b = window.document.getElementById("principal")
+
+    if (senha.value.length == 0){
+        window.alert("Favor inserir senha")
+        } else if(senha.value == "150876"){
+        window.alert="sucesso"
+        b.innerHTML = ` <div class="botoes">
+        <button class="menu" onclick="parcelamentos()">parcelamentos</button>
+
+        <button class="menu" onclick="guias()"> guias de parcelamentos </button>
+    </div>
+
+    <div class="resposta" id="res">
+
+        <p> Nenhum conteúdo selecionado.</p>
+
+    </div> `
+        senha.value == " "} else{
+        a.innerHTML = `senha incorreta`
+        senha.value = ""
+    }
+}
+
 function guias()
 {
-    window.alert("Em Breve")
+    let a = window.document.getElementById("res")
+
+    a.innerHTML = ` Ainda sem conteúdo disponível`
 }
