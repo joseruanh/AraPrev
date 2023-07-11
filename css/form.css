@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 
+@font-face {
+    font-family: goldplay;
+    src: url(../font/GoldplayAlt-Black/GoldplayAlt-Black.ttf);
+}
+
 html
 {
     scroll-behavior: smooth;
@@ -26,10 +31,6 @@ div.form
     
 }
 
-div.form > p
-{
-    font-size: 13px;
-}
 
 input.entrada
 {
@@ -68,5 +69,16 @@ button:hover
 input::placeholder
 {
     font-size: 12px;
-    
+
+}
+
+p.araprevP
+{
+    font-size: 25px;
+    font-family: goldplay;
+}
+
+p.segundo
+{
+    font-size: 12px;
 }
