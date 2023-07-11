@@ -109,5 +109,5 @@ function guias()
 {
     let a = window.document.getElementById("res")
 
-    a.innerHTML = ` Ainda sem conteúdo disponível`
+    a.innerHTML = ` Em breve mostrará as guias em aberto`
 }
