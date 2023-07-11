@@ -111,3 +111,4 @@ function guias()
 
     a.innerHTML = ` Em breve mostrará as guias em aberto`
 }
+
